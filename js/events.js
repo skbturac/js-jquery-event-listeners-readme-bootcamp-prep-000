@@ -5,6 +5,7 @@ $(document).ready(function(){
 frameIt();
 pressIt();
 submitIt();
+})
 
 function getIt(){
   $("p").on("click", function(){
@@ -31,4 +32,3 @@ function submitIt(){
     window.alert("Your form is going to be submitted now.");
   });
  }
-})
