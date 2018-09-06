@@ -6,8 +6,6 @@ frameIt();
 pressIt();
 submitIt();
 
-)}
-
 function getIt(){
   $("p").on("click", function(){
     window.alert("Hey!");
@@ -32,4 +30,5 @@ function submitIt(){
   $("form").on("submit", function(){
     window.alert("Your form is going to be submitted now.");
   });
-}
+ }
+})
